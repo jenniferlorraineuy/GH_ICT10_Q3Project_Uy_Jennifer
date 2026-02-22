@@ -1,9 +1,9 @@
 body {
-text-align: center;
-background-color: rgba(196, 156, 121);
+  text-align: center;
+  background-color: rgba(196, 156, 121);
 }
 
 nav {
-margin-bottom: 20px;
-background-color: rgba(40, 24, 34);
+  margin-bottom: 20px;
+  background-color: rgba(40, 24, 34);
 }
