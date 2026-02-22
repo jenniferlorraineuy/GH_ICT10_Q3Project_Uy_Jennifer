@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+<script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <title>Seatwork 2</title>
+</head>
+<body>
+
+        <nav class>
+        <div class="container">
+            <span class>
+                Intramurals SY 2025-2026
+            </span>
+            <div class="ms-auto">
+                <a href="signup.html">Sign Up</a>
+                <a href="checker.html">Team Checker</a>
+                <a href="index.html">List of Players</a>
+            </div>
+        </div>
+    </nav> 
+
+<div class="card">
+    <h1>Seatwork 2 Team Checker</h1>
+
+    <label>Are you done with the online registration?</label>
+    <div class="option">
+        <input type="radio" name="reg" value="yes"> Yes 
+        <input type="radio" name="reg" value="no"> No
+    </div>
+
+    <label>Do you have the medical clearance from the clinic?</label>
+    <div class="option">
+        <input type="radio" name="medcert" value="yes"> Yes 
+        <input type="radio" name="medcert" value="no"> No
+    </div>
+
+    <label>Grade Level</label>
+    <input type="number" id="grade" placeholder="Enter your grade">
+
+    <label>Section</label>
+    <select id="section">
+        <option value="">Select Section</option>
+        <option value="Emerald">Emerald</option>
+        <option value="Ruby">Ruby</option>
+        <option value="Sapphire">Sapphire</option>
+        <option value="Topaz">Topaz</option>
+    </select>
+
+    <button py-click="intrams_signup">Sign up</button>
+
+    <div id="output"></div>
+</div>
+
+<py-script src="checker.py"></py-script>
+
+</body>
+</html>
