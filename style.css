@@ -10,6 +10,10 @@ nav {
 
 .container {
   background-color: rgba(150, 111, 130);
+  margin-top:20px;
+  border-radius: 15px;
+  max-width: 570px;
+  padding: 15px;
 }
 
 a {
