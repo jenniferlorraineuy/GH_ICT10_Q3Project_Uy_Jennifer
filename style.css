@@ -11,3 +11,7 @@ nav {
 .container {
   background-color: rgba(150, 111, 130);
 }
+
+a {
+  background-color: rgba(149, 112, 130);
+}
