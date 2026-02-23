@@ -9,6 +9,9 @@ body {
 nav {
   margin-bottom: 20px;
   background-color: rgba(40, 24, 34);
+}
+
+.navbar a {
   color: rgba(149, 112, 130);
 }
 
