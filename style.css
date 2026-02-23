@@ -19,6 +19,20 @@ nav {
   padding: 15px;
 }
 
+.button {
+  background-color: #48182e;
+  border: none;   
+  color: white;
+  padding: 5px 90px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
 a {
   background-color: rgba(149, 112, 130);
 }
