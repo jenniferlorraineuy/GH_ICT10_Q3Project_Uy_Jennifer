@@ -9,6 +9,7 @@ body {
 nav {
   margin-bottom: 20px;
   background-color: rgba(40, 24, 34);
+  color: rgba(149, 112, 130);
 }
 
 .container {
@@ -31,8 +32,4 @@ nav {
   margin: 2px 2px;
   cursor: pointer;
   border-radius: 6px;
-}
-
-a {
-  background-color: rgba(149, 112, 130);
 }
