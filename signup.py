@@ -22,3 +22,4 @@ def account_signup(e):
     else:
 
         display("You have successfully signed up", target="output")
+
