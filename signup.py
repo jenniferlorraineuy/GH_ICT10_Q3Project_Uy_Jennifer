@@ -3,6 +3,7 @@ from pyscript import display, document
 
 
 def account_signup(e):
+    document.getElementById('output').innerHTML = ' '
     username = document.getElementById('username').value
     password = document.getElementById('password').value
 
@@ -19,4 +20,5 @@ def account_signup(e):
         display("Password must contain at least one number", target="output")
 
     else:
+
         display("You have successfully signed up", target="output")
