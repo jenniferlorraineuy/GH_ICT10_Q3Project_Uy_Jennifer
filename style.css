@@ -42,8 +42,8 @@ h5 {
 }
 
 .mySelect {
-  width: 100px;
+  width: 90px;
   padding: 6px;
-  border: 1px solid rgb(152, 13, 13);
+  border: 1px solid #301122;
   border-radius: 5px;
 }
