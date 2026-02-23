@@ -1,6 +1,10 @@
 body {
   text-align: center;
   background-color: rgba(196, 156, 121);
+  font-family: "IM Fell English SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 }
 
 nav {
