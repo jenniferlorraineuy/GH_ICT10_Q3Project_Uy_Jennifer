@@ -40,3 +40,10 @@ nav {
 h5 {
   color: #dbc7c8;
 }
+
+.mySelect {
+  width: 570px;
+  padding: 6px;
+  border: 1px solid rgb(152, 13, 13);
+  border-radius: 5px;
+}
